@@ -45,6 +45,34 @@ Insert Into EmployeeSalary VALUES
 (1009, 'Accountant', 42000);
 
 SELECT * FROM SQLTutorial.EmployeeDemographics;
-
 SELECT * FROM SQLTutorial.EmployeeSalary;
+SELECT FirstName, LastName FROM EmployeeDemographics;
+
+SELECT * FROM EmployeeDemographics LIMIT 5;
+
+SELECT DISTINCT (EmployeeID) FROM EmployeeDemographics;
+SELECT DISTINCT(Gender) FROM EmployeeDemographics;
+
+SELECT COUNT(LastName) FROM EmployeeDemographics;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
